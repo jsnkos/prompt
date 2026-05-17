@@ -22,3 +22,8 @@
 ## Agent Skill
 
 本项目提供一个 paper-reading skill，可用于 Cursor 或 Claude Code 等支持 Agent Skills 的工具中。用户只需要上传论文 PDF 或粘贴论文内容，并说明研究方向，即可触发结构化文献阅读流程。
+## 文献精读 Prompt
+
+适用于阅读一篇完整论文，尤其是需要判断其方法逻辑、公式设计、实验可信度和可借鉴性时。
+
+见：`prompts/paper-reading.md`
