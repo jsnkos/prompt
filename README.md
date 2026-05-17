@@ -26,4 +26,4 @@
 
 适用于阅读一篇完整论文，尤其是需要判断其方法逻辑、公式设计、实验可信度和可借鉴性时。
 
-见：`prompts/paper-reading.md`
+见：`prompt/README1.md`
