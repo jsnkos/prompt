@@ -176,8 +176,8 @@
 6. 如果用户只提供了部分论文内容，我是否明确说明了分析局限？
 </details>
 </details>
-<details>
 <summary>📎 Input（输入区）</summary>
 
 [在此处粘贴论文 PDF、论文链接2、摘要、方法部分、公式截图、实验表格，或你想让我重点分析的问题]
 </details>
+<details>
