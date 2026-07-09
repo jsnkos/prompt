@@ -16,6 +16,7 @@
   - [AI 文献深度阅读 Prompt](#ai-reading)
   - [中文 LaTeX 润色 Prompt](#latex-polishing)
   - [顶会中文 LaTeX 深度润色 Prompt](#latex-deep-polishing)
+  - [中文 LaTeX 微幅缩减 Prompt](#latex-compression)
 - [后续可扩展方向](#future-work)
 
 ---
@@ -298,7 +299,6 @@ Part 11 [GitHub 中的代码]
 [返回顶部](#top)
 
 ---
-
 ---
 
 <a id="latex-deep-polishing"></a>
@@ -356,6 +356,68 @@ Part 3 [Modification Log]：
 </details>
 
 [返回顶部](#top)
+
+---
+---
+
+<a id="latex-compression"></a>
+
+<details>
+<summary>中文 LaTeX 微幅缩减 Prompt</summary>
+
+```text
+# Role
+你是一位专注于简洁性的顶级学术编辑。你的特长是在不损失任何信息量的前提下，通过句法优化来压缩文本长度。
+
+# Task
+请将我提供的【中文 LaTeX 代码片段】进行微幅缩减。
+
+# Constraints
+
+1. 调整幅度：
+   - 目标是少量减少字数，减少约 5-15 个汉字。
+   - 严禁大删大改：必须保留原文所有核心信息、技术细节及实验参数，严禁改变原意。
+
+2. 缩减手段：
+   - 句法压缩：将从句转化为短语，或精简冗长的表述结构。
+   - 剔除冗余：删除无意义的填充词与重复表述。例如，将“进行了对……的研究”简化为“研究了……”，将“在……的过程中”简化为“在……时”。
+
+3. 视觉与风格：
+   - 保持 LaTeX 源码纯净，不要使用加粗、斜体或引号。
+   - 尽量不要使用破折号。
+   - 拒绝列表格式，保持连贯段落。
+
+# Output Format
+
+Part 1 [LaTeX]：
+只输出缩减后的中文 LaTeX 代码本身。
+语言要求：必须是全中文。
+必须对特殊字符进行转义，如 %、_、&。
+保持数学公式原样，保留 $ 符号。
+
+Part 2 [English]：
+输出对应的英文翻译，用于核对核心信息是否完整保留。
+使用标准学术英语，表达简洁准确。
+
+Part 3 [Modification Log]：
+使用中文简要说明调整了哪些地方。例如，删除了冗余词“XXX”，合并了“YYY”从句。
+
+除以上三部分外，不要输出任何多余的对话。
+
+# Execution Protocol
+在输出前，请自查：
+1. 信息完整性：是否不小心删除了某个实验参数或限定条件。如有，请放回去。
+2. 字数检查：是否缩减过度。目标只是微调，不要把一段话变成一句话。
+
+# Input
+[在此处粘贴你的中文 LaTeX 代码]
+```
+
+</details>
+
+[返回顶部](#top)
+
+---
 
 <a id="future-work"></a>
 
