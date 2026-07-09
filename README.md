@@ -220,6 +220,4 @@ Part 11 [Github中的代码]
 # Input
 [在此处粘贴你的中文 LaTeX 代码]
 
-[在此处粘贴你的中文 LaTeX 代码]
-
 ```
