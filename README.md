@@ -242,7 +242,7 @@ Part 11 [GitHub 中的代码]
 
 [返回顶部](#top)
 
----
+
 
 <a id="latex-polishing"></a>
 
@@ -298,8 +298,6 @@ Part 11 [GitHub 中的代码]
 
 [返回顶部](#top)
 
----
----
 
 <a id="latex-deep-polishing"></a>
 
@@ -357,7 +355,6 @@ Part 3 [Modification Log]：
 
 [返回顶部](#top)
 
----
 ---
 
 <a id="latex-compression"></a>
