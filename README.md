@@ -14,7 +14,7 @@
 - [使用方法](#usage)
 - [Prompt 模板](#prompt-template)
   - [AI 文献深度阅读 Prompt](#ai-reading)
-  - [中文 LaTeX 润色 Prompt](#latex-polishing)
+  - [中文 LaTeX 去AI Prompt](#latex-polishing)
   - [顶会中文 LaTeX 深度润色 Prompt](#latex-deep-polishing)
   - [中文 LaTeX 微幅缩减 Prompt](#latex-compression)
 - [后续可扩展方向](#future-work)
@@ -52,7 +52,7 @@
 
 1. 如果是第一次阅读论文，可以使用 [AI 文献深度阅读 Prompt](#ai-reading)；
 2. 如果已经读过论文但没有看懂方法或公式，可以只粘贴 Method、公式和实验部分；
-3. 如果需要润色中文论文段落，可以使用 [中文 LaTeX 润色 Prompt](#latex-polishing)；
+3. 如果需要润色中文论文段落，可以使用 [中文 LaTeX 去AI Prompt](#latex-polishing)；
 4. 如果只提供了论文片段，应要求模型明确说明分析局限，避免编造全文内容。
 
 [返回顶部](#top)
@@ -247,7 +247,7 @@ Part 11 [GitHub 中的代码]
 <a id="latex-polishing"></a>
 
 <details>
-<summary>中文 LaTeX 润色 Prompt</summary>
+<summary>中文 LaTeX 去AI Prompt</summary>
 
 ```text
 # Role
