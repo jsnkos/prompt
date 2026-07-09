@@ -229,7 +229,7 @@ Part 11 [Github中的代码]
 
 ```
 
-##中文latex润色
+##中文 LaTeX 润色
 
 ```text
 # Role
