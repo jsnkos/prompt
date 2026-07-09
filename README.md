@@ -10,12 +10,12 @@
 
 ## 快速导航
 
-* [项目简介](#project-intro)
-* [使用方法](#usage)
-* [Prompt 模板](#prompt-template)
-
-  * [AI 文献深度阅读 Prompt](#ai-reading)
-  * [中文 LaTeX 润色 Prompt](#latex-polishing)
+- [项目简介](#project-intro)
+- [使用方法](#usage)
+- [Prompt 模板](#prompt-template)
+  - [AI 文献深度阅读 Prompt](#ai-reading)
+  - [中文 LaTeX 润色 Prompt](#latex-polishing)
+- [后续可扩展方向](#future-work)
 
 ---
 
@@ -29,12 +29,12 @@
 
 这些 Prompt 重点关注以下问题：
 
-* 论文真正要解决的研究问题是什么；
-* 方法结构、关键模块和损失函数如何组织；
-* 公式背后的优化目标和直观含义是什么；
-* 实验设计是否足以支撑作者结论；
-* 创新点是实质贡献，还是已有方法的组合包装；
-* 论文中哪些思想可以迁移到自己的研究中。
+- 论文真正要解决的研究问题是什么；
+- 方法结构、关键模块和损失函数如何组织；
+- 公式背后的优化目标和直观含义是什么；
+- 实验设计是否足以支撑作者结论；
+- 创新点是实质贡献，还是已有方法的组合包装；
+- 论文中哪些思想可以迁移到自己的研究中。
 
 [返回顶部](#top)
 
@@ -63,7 +63,8 @@
 
 <a id="ai-reading"></a>
 
-### AI 文献深度阅读 Prompt
+<details>
+<summary>AI 文献深度阅读 Prompt</summary>
 
 ```text
 # Role
@@ -235,13 +236,16 @@ Part 11 [GitHub 中的代码]
 [在此处粘贴论文 PDF、论文链接、摘要、方法部分、公式截图、实验表格，或你想让我重点分析的问题]
 ```
 
+</details>
+
 [返回顶部](#top)
 
 ---
 
 <a id="latex-polishing"></a>
 
-### 中文 LaTeX 润色 Prompt
+<details>
+<summary>中文 LaTeX 润色 Prompt</summary>
 
 ```text
 # Role
@@ -288,20 +292,24 @@ Part 11 [GitHub 中的代码]
 [在此处粘贴你的中文 LaTeX 代码]
 ```
 
+</details>
+
 [返回顶部](#top)
 
 ---
+
+<a id="future-work"></a>
 
 ## 后续可扩展方向
 
 后续可以继续补充以下模板：
 
-* 英文论文润色 Prompt；
-* Related Work 梳理 Prompt；
-* 审稿意见分析 Prompt；
-* Reviewer Response 写作 Prompt；
-* 实验设计与消融实验检查 Prompt；
-* 论文创新性评估 Prompt；
-* GitHub 代码复现分析 Prompt。
+- 英文论文润色 Prompt；
+- Related Work 梳理 Prompt；
+- 审稿意见分析 Prompt；
+- Reviewer Response 写作 Prompt；
+- 实验设计与消融实验检查 Prompt；
+- 论文创新性评估 Prompt；
+- GitHub 代码复现分析 Prompt。
 
 [返回顶部](#top)
